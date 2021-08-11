@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "632534842950",
+    "firebase_url": "https://bot-assist-ededa.firebaseio.com",
+    "project_id": "bot-assist-ededa",
+    "storage_bucket": "bot-assist-ededa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632534842950:android:8ed3f44dc2198e2e501447",
+        "android_client_info": {
+          "package_name": "com.gvr.botassist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632534842950-2p1m4gqjpbqco6e5j10e95gr8i5pgqvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gvr.botassist",
+            "certificate_hash": "80e9cb5404ab433104509aa9ba3edbb53e2b1ab8"
+          }
+        },
+        {
+          "client_id": "632534842950-5quslvmtrihqe67pd2hjqvmdaqr4llvf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEmCPC6jo67Z3bkjHbPss-TbbEggXsRes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632534842950-hr2akm4drhinelerfd3c04k4sta03ohc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

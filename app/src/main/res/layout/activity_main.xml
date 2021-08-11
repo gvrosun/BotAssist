@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Say Code to open"
+        android:textAlignment="center"
+        android:textDirection="firstStrong"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/chsn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attempt: 3"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/attemt"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="bottom|center"
+        android:text="Login to continue"
+        android:textColor="#064608"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/login"
+        android:text="Guest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/glogin2"
+        android:text="Signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/login"/>
+</RelativeLayout>
